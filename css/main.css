@@ -1,0 +1,247 @@
+@font-face {
+  font-family: "Heebo";
+  src: url("./Heebo/Heebo-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./Inter/Inter-VariableFont_slnt,wght.ttf");
+}
+
+body {
+  background-color: black;
+  width: 1152px;
+  height: 2041px;
+  margin-left: 8vw;
+}
+
+.main-header, .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "row";
+          flex-direction: "row";
+  padding-left: 148px;
+  padding-right: 149px;
+  background-color: #c9ebef;
+}
+
+.main-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 148px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #c9ebef;
+}
+
+.main-footer {
+  background-color: #c9ebef;
+}
+
+.main-header {
+  padding-top: 228px;
+  padding-bottom: 142px;
+  font-family: "Heebo";
+}
+
+.summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 506px;
+  height: 105px;
+}
+
+.summary h2 {
+  font-size: 44px;
+  line-height: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 700;
+}
+
+.summary p {
+  font-size: 16px;
+  line-height: 23.5px;
+  margin-top: 40px;
+  font-weight: 400;
+  width: 497px;
+  height: 66px;
+}
+
+.photo img {
+  width: 243px;
+  height: 243px;
+  border-radius: 100%;
+  margin-left: 115px;
+  -webkit-box-shadow: -5px 13px 5px #69a6d1;
+          box-shadow: -5px 13px 5px #69a6d1;
+}
+
+.main-content {
+  background-color: #69a6d1;
+  font-family: "Inter";
+  padding-bottom: 55px;
+}
+
+.main-content h3 {
+  font-size: 18px;
+  text-transform: uppercase;
+  padding-top: 8px;
+  margin-bottom: 20px;
+}
+
+.main-content .contact {
+  width: 50%;
+}
+
+.main-content .contact ul {
+  padding-left: 0px;
+}
+
+.main-content .contact ul li {
+  font-size: 14px;
+  margin-bottom: 10.41px;
+}
+
+.main-content .contact ul li p {
+  margin-left: 19.62px;
+  display: inline;
+}
+
+.main-content .education {
+  width: 50%;
+}
+
+.main-content .education h4 {
+  font-size: 16px;
+  line-height: 16.94px;
+  margin-bottom: 6px;
+  margin-top: 0px;
+  font-weight: 600;
+}
+
+.main-content .education p {
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+
+.main-content .education ul {
+  margin-top: 0px;
+  padding-left: 20px;
+}
+
+.main-content .education ul li {
+  font-size: 14px;
+  line-height: 14.52px;
+  font-weight: 400;
+}
+
+.main-project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Heebo";
+}
+
+.main-project h3 {
+  margin-top: 46px;
+  font-family: "Inter";
+  font-size: 18px;
+}
+
+.main-project .project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: "row";
+          flex-direction: "row";
+  padding-left: 148px;
+  padding-right: 149px;
+  padding-left: 0px;
+  padding-bottom: 15px;
+  padding-top: 30px;
+}
+
+.main-project .foto {
+  padding-right: 18px;
+}
+
+.main-project img {
+  width: 246px;
+  height: 180px;
+  border-radius: 6px;
+}
+
+.main-project h2 {
+  font-size: 30px;
+  line-height: 44.06px;
+  font-style: bold;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.main-project p {
+  font-size: 16px;
+  line-height: 23.5px;
+  margin-top: 17px;
+  padding-bottom: 17px;
+}
+
+.main-project h5 {
+  display: inline;
+  font-size: 20px;
+  line-height: 29.38px;
+  font-weight: 400;
+  color: #8695a4;
+  padding-bottom: 17px;
+}
+
+.button {
+  width: 62px;
+  height: 25px;
+  border-radius: 16px;
+  background-color: #142850;
+  color: white;
+  font-family: "Heebo";
+  font-weight: 900;
+  font-size: 14px;
+  margin-right: 36px;
+}
+
+.main-footer {
+  padding-top: 134px;
+  padding-bottom: 54px;
+  text-align: center;
+  font-family: "Heebo";
+  font-size: 14px;
+  line-height: 20.56px;
+  font-weight: 400;
+}
+
+.main-footer svg {
+  padding: 15px;
+}
+
+hr {
+  border: 1px solid grey;
+  margin-right: 149px;
+}
+/*# sourceMappingURL=main.css.map */
